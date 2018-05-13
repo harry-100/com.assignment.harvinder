@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]">
+  <test name="Regression Tests(failed)">
+    <classes>
+      <class name="com.testsuite_regression.TransferFunds">
+        <methods>
+          <include name="transfer"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testsuite_regression.TransferFunds -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->

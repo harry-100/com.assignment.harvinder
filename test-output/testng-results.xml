@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Test Suite" duration-ms="28142" started-at="2018-05-13T00:00:15Z" finished-at="2018-05-13T00:00:43Z">
+    <groups>
+    </groups>
+    <test name="Regression Tests" duration-ms="28142" started-at="2018-05-13T00:00:15Z" finished-at="2018-05-13T00:00:43Z">
+      <class name="com.testsuite_regression.PurchaseForeignCurrency">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testsuite_regression.PurchaseForeignCurrency@6fd02e5]" name="init" is-config="true" duration-ms="3787" started-at="2018-05-12T20:00:36Z" finished-at="2018-05-12T20:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="purchaseCurrency()[pri:0, instance:com.testsuite_regression.PurchaseForeignCurrency@6fd02e5]" name="purchaseCurrency" duration-ms="2081" started-at="2018-05-12T20:00:40Z" finished-at="2018-05-12T20:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseCurrency -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testsuite_regression.PurchaseForeignCurrency@6fd02e5]" name="tearDown" is-config="true" duration-ms="1167" started-at="2018-05-12T20:00:42Z" finished-at="2018-05-12T20:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testsuite_regression.PurchaseForeignCurrency -->
+      <class name="com.testsuite_regression.AddNewPayee">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testsuite_regression.AddNewPayee@1ce92674]" name="init" is-config="true" duration-ms="5747" started-at="2018-05-12T20:00:15Z" finished-at="2018-05-12T20:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addPayee()[pri:0, instance:com.testsuite_regression.AddNewPayee@1ce92674]" name="addPayee" duration-ms="5011" started-at="2018-05-12T20:00:20Z" finished-at="2018-05-12T20:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPayee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testsuite_regression.AddNewPayee@1ce92674]" name="tearDown" is-config="true" duration-ms="1200" started-at="2018-05-12T20:00:25Z" finished-at="2018-05-12T20:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testsuite_regression.AddNewPayee -->
+      <class name="com.testsuite_regression.TransferFunds">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testsuite_regression.TransferFunds@5700d6b1]" name="init" is-config="true" duration-ms="5369" started-at="2018-05-12T20:00:27Z" finished-at="2018-05-12T20:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="transfer()[pri:0, instance:com.testsuite_regression.TransferFunds@5700d6b1]" name="transfer" duration-ms="2605" started-at="2018-05-12T20:00:32Z" finished-at="2018-05-12T20:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transfer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testsuite_regression.TransferFunds@5700d6b1]" name="tearDown" is-config="true" duration-ms="1156" started-at="2018-05-12T20:00:35Z" finished-at="2018-05-12T20:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testsuite_regression.TransferFunds -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Regression Test Suite -->
+</testng-results>

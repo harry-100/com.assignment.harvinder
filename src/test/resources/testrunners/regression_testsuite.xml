@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+  <test name="Regression Tests">
+    <classes>
+       <class name="com.testsuite_regression.AddNewPayee"/>
+       <class name="com.testsuite_regression.TransferFunds"/>
+       <class name="com.testsuite_regression.PurchaseForeignCurrency"/>
+    </classes>
+  </test> <!-- Regression Tests -->
+</suite> <!-- Regression Test Suite -->
